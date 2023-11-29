@@ -6,7 +6,7 @@ using System.Threading;
     thr1 = new Thread(d);
     thr1.Start();
 
-    // Ожидание завершения потока
+   
     thr1.Join();
 
     Console.ReadLine();
